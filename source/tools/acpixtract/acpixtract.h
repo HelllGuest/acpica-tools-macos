@@ -181,7 +181,7 @@
 
 #define AX_UTILITY_NAME             "ACPI Binary Table Extraction Utility"
 #define AX_SUPPORTED_OPTIONS        "afhlms:v^"
-#define AX_MULTI_TABLE_FILENAME     "amltables.dat"
+#define AX_MULTI_TABLE_FILENAME     "amltables.aml"
 #define AX_TABLE_INFO_FORMAT        "  %4.4s - %7u bytes written (0x%8.8X) - %s\n"
 
 /* Extraction states */

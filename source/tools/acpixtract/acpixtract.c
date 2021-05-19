@@ -285,12 +285,12 @@ AxExtractTables (
             {
                 /* Add instance number to the output filename */
 
-                sprintf (Gbl_OutputFilename, "%4.4s%u.dat",
+                sprintf (Gbl_OutputFilename, "%4.4s%u.aml",
                     ThisSignature, ThisInstance);
             }
             else
             {
-                sprintf (Gbl_OutputFilename, "%4.4s.dat",
+                sprintf (Gbl_OutputFilename, "%4.4s.aml",
                     ThisSignature);
             }
 
