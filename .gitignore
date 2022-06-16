@@ -1,0 +1,11 @@
+# Ignore these
+
+generate/unix/acpibin/obj/
+generate/unix/acpidump/obj/
+generate/unix/acpiexamples/obj/
+generate/unix/acpiexec/obj/
+generate/unix/acpihelp/obj/
+generate/unix/acpisrc/obj/
+generate/unix/acpixtract/obj/
+generate/unix/bin/
+generate/unix/iasl/obj/
