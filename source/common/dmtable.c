@@ -4,117 +4,9 @@
  *
  *****************************************************************************/
 
-/******************************************************************************
- *
- * 1. Copyright Notice
- *
- * Some or all of this work - Copyright (c) 1999 - 2021, Intel Corp.
+/*
+ * Copyright (C) 2000 - 2022, Intel Corp.
  * All rights reserved.
- *
- * 2. License
- *
- * 2.1. This is your license from Intel Corp. under its intellectual property
- * rights. You may have additional license terms from the party that provided
- * you this software, covering your right to use that party's intellectual
- * property rights.
- *
- * 2.2. Intel grants, free of charge, to any person ("Licensee") obtaining a
- * copy of the source code appearing in this file ("Covered Code") an
- * irrevocable, perpetual, worldwide license under Intel's copyrights in the
- * base code distributed originally by Intel ("Original Intel Code") to copy,
- * make derivatives, distribute, use and display any portion of the Covered
- * Code in any form, with the right to sublicense such rights; and
- *
- * 2.3. Intel grants Licensee a non-exclusive and non-transferable patent
- * license (with the right to sublicense), under only those claims of Intel
- * patents that are infringed by the Original Intel Code, to make, use, sell,
- * offer to sell, and import the Covered Code and derivative works thereof
- * solely to the minimum extent necessary to exercise the above copyright
- * license, and in no event shall the patent license extend to any additions
- * to or modifications of the Original Intel Code. No other license or right
- * is granted directly or by implication, estoppel or otherwise;
- *
- * The above copyright and patent license is granted only if the following
- * conditions are met:
- *
- * 3. Conditions
- *
- * 3.1. Redistribution of Source with Rights to Further Distribute Source.
- * Redistribution of source code of any substantial portion of the Covered
- * Code or modification with rights to further distribute source must include
- * the above Copyright Notice, the above License, this list of Conditions,
- * and the following Disclaimer and Export Compliance provision. In addition,
- * Licensee must cause all Covered Code to which Licensee contributes to
- * contain a file documenting the changes Licensee made to create that Covered
- * Code and the date of any change. Licensee must include in that file the
- * documentation of any changes made by any predecessor Licensee. Licensee
- * must include a prominent statement that the modification is derived,
- * directly or indirectly, from Original Intel Code.
- *
- * 3.2. Redistribution of Source with no Rights to Further Distribute Source.
- * Redistribution of source code of any substantial portion of the Covered
- * Code or modification without rights to further distribute source must
- * include the following Disclaimer and Export Compliance provision in the
- * documentation and/or other materials provided with distribution. In
- * addition, Licensee may not authorize further sublicense of source of any
- * portion of the Covered Code, and must include terms to the effect that the
- * license from Licensee to its licensee is limited to the intellectual
- * property embodied in the software Licensee provides to its licensee, and
- * not to intellectual property embodied in modifications its licensee may
- * make.
- *
- * 3.3. Redistribution of Executable. Redistribution in executable form of any
- * substantial portion of the Covered Code or modification must reproduce the
- * above Copyright Notice, and the following Disclaimer and Export Compliance
- * provision in the documentation and/or other materials provided with the
- * distribution.
- *
- * 3.4. Intel retains all right, title, and interest in and to the Original
- * Intel Code.
- *
- * 3.5. Neither the name Intel nor any other trademark owned or controlled by
- * Intel shall be used in advertising or otherwise to promote the sale, use or
- * other dealings in products derived from or relating to the Covered Code
- * without prior written authorization from Intel.
- *
- * 4. Disclaimer and Export Compliance
- *
- * 4.1. INTEL MAKES NO WARRANTY OF ANY KIND REGARDING ANY SOFTWARE PROVIDED
- * HERE. ANY SOFTWARE ORIGINATING FROM INTEL OR DERIVED FROM INTEL SOFTWARE
- * IS PROVIDED "AS IS," AND INTEL WILL NOT PROVIDE ANY SUPPORT, ASSISTANCE,
- * INSTALLATION, TRAINING OR OTHER SERVICES. INTEL WILL NOT PROVIDE ANY
- * UPDATES, ENHANCEMENTS OR EXTENSIONS. INTEL SPECIFICALLY DISCLAIMS ANY
- * IMPLIED WARRANTIES OF MERCHANTABILITY, NONINFRINGEMENT AND FITNESS FOR A
- * PARTICULAR PURPOSE.
- *
- * 4.2. IN NO EVENT SHALL INTEL HAVE ANY LIABILITY TO LICENSEE, ITS LICENSEES
- * OR ANY OTHER THIRD PARTY, FOR ANY LOST PROFITS, LOST DATA, LOSS OF USE OR
- * COSTS OF PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES, OR FOR ANY INDIRECT,
- * SPECIAL OR CONSEQUENTIAL DAMAGES ARISING OUT OF THIS AGREEMENT, UNDER ANY
- * CAUSE OF ACTION OR THEORY OF LIABILITY, AND IRRESPECTIVE OF WHETHER INTEL
- * HAS ADVANCE NOTICE OF THE POSSIBILITY OF SUCH DAMAGES. THESE LIMITATIONS
- * SHALL APPLY NOTWITHSTANDING THE FAILURE OF THE ESSENTIAL PURPOSE OF ANY
- * LIMITED REMEDY.
- *
- * 4.3. Licensee shall not export, either directly or indirectly, any of this
- * software or system incorporating such software without first obtaining any
- * required license or other approval from the U. S. Department of Commerce or
- * any other agency or department of the United States Government. In the
- * event Licensee exports any such software from the United States or
- * re-exports any such software from a foreign destination, Licensee shall
- * ensure that the distribution and export/re-export of the software is in
- * compliance with all laws, regulations, orders, or other restrictions of the
- * U.S. Export Administration Regulations. Licensee agrees that neither it nor
- * any of its subsidiaries will export/re-export any technical data, process,
- * software, or service, directly or indirectly, to any country for which the
- * United States government or any agency thereof requires an export license,
- * other governmental approval, or letter of assurance, without first obtaining
- * such license, approval or letter.
- *
- *****************************************************************************
- *
- * Alternatively, you may choose to be licensed under the terms of the
- * following license:
  *
  * Redistribution and use in source and binary forms, with or without
  * modification, are permitted provided that the following conditions
@@ -131,23 +23,23 @@
  *    of any contributors may be used to endorse or promote products derived
  *    from this software without specific prior written permission.
  *
+ * Alternatively, this software may be distributed under the terms of the
+ * GNU General Public License ("GPL") version 2 as published by the Free
+ * Software Foundation.
+ *
+ * NO WARRANTY
  * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
  * "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
  * LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
  * A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
- * OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
- * SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
- * LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
- * DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
- * THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
- * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
- * OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
- *
- * Alternatively, you may choose to be licensed under the terms of the
- * GNU General Public License ("GPL") version 2 as published by the Free
- * Software Foundation.
- *
- *****************************************************************************/
+ * HOLDERS OR CONTRIBUTORS BE LIABLE FOR SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+ * DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS
+ * OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+ * HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT,
+ * STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING
+ * IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
+ * POSSIBILITY OF SUCH DAMAGES.
+ */
 
 #include "acpi.h"
 #include "accommon.h"
@@ -167,12 +59,62 @@ AcpiAhGetTableInfo (
 
 /* Common format strings for commented values */
 
-#define UINT8_FORMAT        "%2.2X [%s]\n"
-#define UINT16_FORMAT       "%4.4X [%s]\n"
-#define UINT32_FORMAT       "%8.8X [%s]\n"
-#define STRING_FORMAT       "[%s]\n"
+#define UINT8_FORMAT            "%2.2X [%s]\n"
+#define UINT8_FORMAT_NO_NEWLINE "%2.2X [%s]"
+#define UINT16_FORMAT           "%4.4X [%s]\n"
+#define UINT32_FORMAT           "%8.8X [%s]\n"
+#define STRING_FORMAT           "[%s]\n"
 
 /* These tables map a subtable type to a description string */
+
+static const char           *AcpiDmAestResourceNames[] =
+{
+    "Cache Resource",
+    "TLB Resource",
+    "Generic Resource",
+    "Unknown Resource Type"         /* Reserved */
+};
+
+static const char           *AcpiDmAestSubnames[] =
+{
+    "Processor Error Node",
+    "Memory Error Node",
+    "SMMU Error Node",
+    "Vendor-defined Error Node",
+    "GIC Error Node",
+    "Unknown Subtable Type"         /* Reserved */
+};
+
+static const char           *AcpiDmAestCacheNames[] =
+{
+    "Data Cache",
+    "Instruction Cache",
+    "Unified Cache",
+    "Unknown Cache Type"            /* Reserved */
+};
+
+static const char           *AcpiDmAestGicNames[] =
+{
+    "GIC CPU",
+    "GIC Distributor",
+    "GIC Redistributor",
+    "GIC ITS",
+    "Unknown GIC Interface Type"    /* Reserved */
+};
+
+static const char           *AcpiDmAestXfaceNames[] =
+{
+    "System Register Interface",
+    "Memory Mapped Interface",
+    "Unknown Interface Type"        /* Reserved */
+};
+
+static const char           *AcpiDmAestXruptNames[] =
+{
+    "Fault Handling Interrupt",
+    "Error Recovery Interrupt",
+    "Unknown Interrupt Type"        /* Reserved */
+};
 
 static const char           *AcpiDmAsfSubnames[] =
 {
@@ -187,6 +129,7 @@ static const char           *AcpiDmAsfSubnames[] =
 static const char           *AcpiDmCedtSubnames[] =
 {
     "CXL Host Bridge Structure",
+    "CXL Fixed Memory Window Structure",
     "Unknown Subtable Type"         /* Reserved */
 };
 
@@ -197,6 +140,7 @@ static const char           *AcpiDmDmarSubnames[] =
     "Root Port ATS Capability",
     "Remapping Hardware Static Affinity",
     "ACPI Namespace Device Declaration",
+    "SoC Integrated Address Translation Cache",
     "Unknown Subtable Type"         /* Reserved */
 };
 
@@ -350,7 +294,9 @@ static const char           *AcpiDmMadtSubnames[] =
     "Generic MSI Frame",                /* ACPI_MADT_GENERIC_MSI_FRAME */
     "Generic Interrupt Redistributor",  /* ACPI_MADT_GENERIC_REDISTRIBUTOR */
     "Generic Interrupt Translator",     /* ACPI_MADT_GENERIC_TRANSLATOR */
-    "Unknown Subtable Type"             /* Reserved */
+    "Mutiprocessor Wakeup",             /* ACPI_MADT_TYPE_MULTIPROC_WAKEUP */
+    "Unknown Subtable Type",            /* Reserved */
+    "Types 80-FF are used for OEM data" /* Reserved for OEM data */
 };
 
 static const char           *AcpiDmNfitSubnames[] =
@@ -364,6 +310,70 @@ static const char           *AcpiDmNfitSubnames[] =
     "Flush Hint Address",               /* ACPI_NFIT_TYPE_FLUSH_ADDRESS */
     "Platform Capabilities",            /* ACPI_NFIT_TYPE_CAPABILITIES */
     "Unknown Subtable Type"             /* Reserved */
+};
+
+static const char           *AcpiDmNhltLinkTypeNames[] =
+{
+    "Reserved for HD-Audio",            /* ACPI_NHLT_RESERVED_HD_AUDIO */
+    "Reserved for DSP",                 /* ACPI_NHLT_RESERVED_DSP */
+    "Type PDM",                         /* ACPI_NHLT_PDM */
+    "Type SSP",                         /* ACPI_NHLT_SSP */
+    "Reserved for SlimBus",             /* ACPI_NHLT_RESERVED_SLIMBUS */
+    "Reserved for SoundWire",           /* ACPI_NHLT_RESERVED_SOUNDWIRE */
+    "Unknown Link Type"                 /* Reserved */
+};
+
+static const char           *AcpiDmNhltDirectionNames[] =
+{
+    "Render",                           /* ACPI_NHLT_DIR_RENDER */
+    "Capture",                          /* ACPI_NHLT_DIR_CAPTURE */
+    "Render with Loopback",             /* ACPI_NHLT_DIR_RENDER_LOOPBACK */
+    "Feedback for Render",              /* ACPI_NHLT_DIR_RENDER_FEEDBACK */
+    "Unknown Direction"                 /* Reserved */
+};
+
+static const char           *AcpiDmNhltMicTypeNames[] =
+{
+    "Omnidirectional",                  /* ACPI_NHLT_MIC_OMNIDIRECTIONAL */
+    "Subcardioid",                      /* ACPI_NHLT_MIC_SUBCARDIOID */
+    "Cardioid",                         /* ACPI_NHLT_MIC_CARDIOID */
+    "SuperCardioid",                    /* ACPI_NHLT_MIC_SUPER_CARDIOID */
+    "HyperCardioid",                    /* ACPI_NHLT_MIC_HYPER_CARDIOID */
+    "8 Shaped",                         /* ACPI_NHLT_MIC_8_SHAPED */
+    "Reserved Mic Type",                /* Reserved */
+    "Vendor Defined",                   /* ACPI_NHLT_MIC_VENDOR_DEFINED */
+    "Unknown Mic Type"                  /* ACPI_NHLT_MIC_RESERVED */
+};
+
+static const char           *AcpiDmNhltMicPositionNames[] =
+{
+    "Top",                              /* ACPI_NHLT_MIC_POSITION_TOP */
+    "Bottom",                           /* ACPI_NHLT_MIC_POSITION_BOTTOM */
+    "Left",                             /* ACPI_NHLT_MIC_POSITION_LEFT */
+    "Right",                            /* ACPI_NHLT_MIC_POSITION_RIGHT */
+    "Front",                            /* ACPI_NHLT_MIC_POSITION_FRONT */
+    "Back",                             /* ACPI_NHLT_MIC_POSITION_BACK */
+    "Unknown Mic Position"              /* 6 and above are reserved */
+};
+
+static const char           *AcpiDmNhltMicArrayTypeNames[] =
+{
+    "Unknown Array Type",               /* ACPI_NHLT_ARRAY_TYPE_RESERVED */
+    "Small Linear 2-element",           /* ACPI_NHLT_SMALL_LINEAR_2ELEMENT */
+    "Big Linear 2-element",             /* ACPI_NHLT_BIG_LINEAR_2ELEMENT */
+    "Linear 4-element 1st Geometry",    /* ACPI_NHLT_FIRST_GEOMETRY_LINEAR_4ELEMENT */
+    "Planar L-shaped 4-element",        /* ACPI_NHLT_PLANAR_LSHAPED_4ELEMENT */
+    "Linear 4-element 2nd Geometry",    /* ACPI_NHLT_SECOND_GEOMETRY_LINEAR_4ELEMENT */
+    "Vendor Defined"                    /* ACPI_NHLT_VENDOR_DEFINED */
+};
+
+static const char           *AcpiDmNhltConfigTypeNames[] =
+{
+    "Generic Type",                     /* ACPI_NHLT_CONFIG_TYPE_GENERIC */
+    "Microphone Array",                 /* ACPI_NHLT_CONFIG_TYPE_MIC_ARRAY */
+    "Reserved",                         /* ACPI_NHLT_CONFIG_TYPE_RESERVED */
+    "Render Feedback",                  /* ACPI_NHLT_CONFIG_TYPE_RENDER_FEEDBACK */
+    "Unknown Config Type"               /* ACPI_NHLT_CONFIG_TYPE_RESERVED */
 };
 
 static const char           *AcpiDmPcctSubnames[] =
@@ -401,6 +411,12 @@ static const char           *AcpiDmPpttSubnames[] =
     "Unknown Subtable Type"         /* Reserved */
 };
 
+static const char           *AcpiDmRgrtSubnames[] =
+{
+    "Unknown/Reserved Image Type",  /* ACPI_RGRT_TYPE_RESERVED0 */
+    "Type PNG"                      /* ACPI_RGRT_IMAGE_TYPE_PNG */
+};
+
 static const char           *AcpiDmSdevSubnames[] =
 {
     "Namespace Device",             /* ACPI_SDEV_TYPE_NAMESPACE_DEVICE */
@@ -416,6 +432,7 @@ static const char           *AcpiDmSratSubnames[] =
     "GICC Affinity",
     "GIC ITS Affinity",             /* Acpi 6.2 */
     "Generic Initiator Affinity",   /* Acpi 6.3 */
+    "Generic Port Affinity",        /* Acpi 6.4 */
     "Unknown Subtable Type"         /* Reserved */
 };
 
@@ -438,9 +455,28 @@ static const char           *AcpiDmTpm2Subnames[] =
 
 static const char           *AcpiDmIvrsSubnames[] =
 {
-    "Hardware Definition Block",
-    "Memory Definition Block",
-    "Unknown Subtable Type"         /* Reserved */
+    "Hardware Definition Block (IVHD)",
+    "Hardware Definition Block - Mixed Format (IVHD)",
+    "Memory Definition Block (IVMD)",
+    "Unknown/Reserved Subtable Type"            /* Reserved */
+};
+
+static const char           *AcpiDmIvrsDevEntryNames[] =
+{
+    "Unknown/Reserved Device Entry Type",       /* 0- Reserved */
+    "Device Entry: Select All Devices",         /* 1 */
+    "Device Entry: Select One Device",          /* 2 */
+    "Device Entry: Start of Range",             /* 3 */
+    "Device Entry: End of Range",               /* 4 */
+    "Device Entry: Alias Select",               /* 66 */
+    "Device Entry: Alias Start of Range",       /* 67 */
+    "Unknown/Reserved Device Entry Type",       /* 68- Reserved */
+    "Unknown/Reserved Device Entry Type",       /* 69- Reserved */
+    "Device Entry: Extended Select",            /* 70 */
+    "Device Entry: Extended Start of Range",    /* 71 */
+    "Device Entry: Special Device",             /* 72 */
+    "Device Entry: ACPI HID Named Device",      /* 240 */
+    "Unknown/Reserved Device Entry Type"        /* Reserved */
 };
 
 static const char           *AcpiDmLpitSubnames[] =
@@ -506,7 +542,11 @@ static const char           *AcpiDmGasAccessWidth[] =
 
 const ACPI_DMTABLE_DATA     AcpiDmTableData[] =
 {
+    {ACPI_SIG_AEST, NULL,                   AcpiDmDumpAest, DtCompileAest,  TemplateAest},
+    {ACPI_SIG_AGDI, AcpiDmTableInfoAgdi,    NULL,           NULL,           TemplateAgdi},
+    {ACPI_SIG_APMT, NULL,                   AcpiDmDumpApmt, DtCompileApmt,  TemplateApmt},
     {ACPI_SIG_ASF,  NULL,                   AcpiDmDumpAsf,  DtCompileAsf,   TemplateAsf},
+    {ACPI_SIG_BDAT, AcpiDmTableInfoBdat,    NULL,           NULL,           TemplateBdat},
     {ACPI_SIG_BERT, AcpiDmTableInfoBert,    NULL,           NULL,           TemplateBert},
     {ACPI_SIG_BGRT, AcpiDmTableInfoBgrt,    NULL,           NULL,           TemplateBgrt},
     {ACPI_SIG_BOOT, AcpiDmTableInfoBoot,    NULL,           NULL,           TemplateBoot},
@@ -536,12 +576,15 @@ const ACPI_DMTABLE_DATA     AcpiDmTableData[] =
     {ACPI_SIG_MSCT, NULL,                   AcpiDmDumpMsct, DtCompileMsct,  TemplateMsct},
     {ACPI_SIG_MSDM, NULL,                   AcpiDmDumpSlic, DtCompileSlic,  TemplateMsdm},
     {ACPI_SIG_NFIT, AcpiDmTableInfoNfit,    AcpiDmDumpNfit, DtCompileNfit,  TemplateNfit},
+    {ACPI_SIG_NHLT, AcpiDmTableInfoNhlt,    AcpiDmDumpNhlt, DtCompileNhlt,  TemplateNhlt},
     {ACPI_SIG_PCCT, AcpiDmTableInfoPcct,    AcpiDmDumpPcct, DtCompilePcct,  TemplatePcct},
     {ACPI_SIG_PDTT, AcpiDmTableInfoPdtt,    AcpiDmDumpPdtt, DtCompilePdtt,  TemplatePdtt},
     {ACPI_SIG_PHAT, NULL,                   AcpiDmDumpPhat, DtCompilePhat,  TemplatePhat},
     {ACPI_SIG_PMTT, NULL,                   AcpiDmDumpPmtt, DtCompilePmtt,  TemplatePmtt},
     {ACPI_SIG_PPTT, NULL,                   AcpiDmDumpPptt, DtCompilePptt,  TemplatePptt},
+    {ACPI_SIG_PRMT, NULL,                   AcpiDmDumpPrmt, DtCompilePrmt,  TemplatePrmt},
     {ACPI_SIG_RASF, AcpiDmTableInfoRasf,    NULL,           NULL,           TemplateRasf},
+    {ACPI_SIG_RGRT, NULL,                   AcpiDmDumpRgrt, DtCompileRgrt,  TemplateRgrt},
     {ACPI_SIG_RSDT, NULL,                   AcpiDmDumpRsdt, DtCompileRsdt,  TemplateRsdt},
     {ACPI_SIG_S3PT, NULL,                   NULL,           NULL,           TemplateS3pt},
     {ACPI_SIG_SBST, AcpiDmTableInfoSbst,    NULL,           NULL,           TemplateSbst},
@@ -553,7 +596,9 @@ const ACPI_DMTABLE_DATA     AcpiDmTableData[] =
     {ACPI_SIG_SPMI, AcpiDmTableInfoSpmi,    NULL,           NULL,           TemplateSpmi},
     {ACPI_SIG_SRAT, NULL,                   AcpiDmDumpSrat, DtCompileSrat,  TemplateSrat},
     {ACPI_SIG_STAO, NULL,                   AcpiDmDumpStao, DtCompileStao,  TemplateStao},
+    {ACPI_SIG_SVKL, AcpiDmTableInfoSvkl,    AcpiDmDumpSvkl, DtCompileSvkl,  TemplateSvkl},
     {ACPI_SIG_TCPA, NULL,                   AcpiDmDumpTcpa, DtCompileTcpa,  TemplateTcpa},
+    {ACPI_SIG_TDEL, AcpiDmTableInfoTdel,    NULL,           NULL,           TemplateTdel},
     {ACPI_SIG_TPM2, AcpiDmTableInfoTpm2,    AcpiDmDumpTpm2, DtCompileTpm2,  TemplateTpm2},
     {ACPI_SIG_UEFI, AcpiDmTableInfoUefi,    NULL,           DtCompileUefi,  TemplateUefi},
     {ACPI_SIG_VIOT, AcpiDmTableInfoViot,    AcpiDmDumpViot, DtCompileViot,  TemplateViot},
@@ -692,7 +737,8 @@ AcpiDmDumpDataTable (
             return;
         }
     }
-    else if (ACPI_VALIDATE_RSDP_SIG (Table->Signature))
+    else if (ACPI_VALIDATE_RSDP_SIG (ACPI_CAST_PTR (ACPI_TABLE_RSDP,
+        Table)->Signature))
     {
         Length = AcpiDmDumpRsdp (Table);
     }
@@ -937,11 +983,11 @@ AcpiDmDumpTable (
 
         /* Check for beyond subtable end or (worse) beyond EOT */
 
-        if (SubtableLength && (Info->Offset >= SubtableLength))
+        if (SubtableLength && (Info->Offset > SubtableLength))
         {
             AcpiOsPrintf (
-                "/**** ACPI subtable terminates early - "
-                "may be older version (dump table) */\n");
+                "/**** ACPI subtable terminates early (Len %u) - "
+                "may be older version (dump table) */\n", SubtableLength);
 
             /* Move on to next subtable */
 
@@ -966,13 +1012,25 @@ AcpiDmDumpTable (
         case ACPI_DMT_ACCWIDTH:
         case ACPI_DMT_CEDT:
         case ACPI_DMT_IVRS:
+        case ACPI_DMT_IVRS_DE:
         case ACPI_DMT_GTDT:
         case ACPI_DMT_MADT:
+        case ACPI_DMT_NHLT1:
+        case ACPI_DMT_NHLT1a:
+        case ACPI_DMT_NHLT1b:
+        case ACPI_DMT_NHLT1c:
+        case ACPI_DMT_NHLT1d:
+        case ACPI_DMT_NHLT1f:
         case ACPI_DMT_PCCT:
         case ACPI_DMT_PMTT:
         case ACPI_DMT_PPTT:
+        case ACPI_DMT_RGRT:
         case ACPI_DMT_SDEV:
         case ACPI_DMT_SRAT:
+        case ACPI_DMT_AEST:
+        case ACPI_DMT_AEST_RES:
+        case ACPI_DMT_AEST_XFACE:
+        case ACPI_DMT_AEST_XRUPT:
         case ACPI_DMT_ASF:
         case ACPI_DMT_HESTNTYP:
         case ACPI_DMT_FADTPM:
@@ -991,6 +1049,7 @@ AcpiDmDumpTable (
         case ACPI_DMT_HEST:
         case ACPI_DMT_HMAT:
         case ACPI_DMT_NFIT:
+        case ACPI_DMT_NHLT1e:
         case ACPI_DMT_PHAT:
 
             ByteLength = 2;
@@ -1002,6 +1061,8 @@ AcpiDmDumpTable (
             break;
 
         case ACPI_DMT_UINT32:
+        case ACPI_DMT_AEST_CACHE:
+        case ACPI_DMT_AEST_GIC:
         case ACPI_DMT_NAME4:
         case ACPI_DMT_SIG:
         case ACPI_DMT_LPIT:
@@ -1049,9 +1110,20 @@ AcpiDmDumpTable (
             ByteLength = 16;
             break;
 
+        case ACPI_DMT_BUF18:
+
+            ByteLength = 18;
+            break;
+
         case ACPI_DMT_BUF128:
 
             ByteLength = 128;
+            break;
+
+        case ACPI_DMT_WPBT_UNICODE:
+
+            ByteLength = SubtableLength;
+            CurrentOffset = sizeof (ACPI_TABLE_WPBT);
             break;
 
         case ACPI_DMT_UNICODE:
@@ -1075,6 +1147,11 @@ AcpiDmDumpTable (
         case ACPI_DMT_STRING:
 
             ByteLength = strlen (ACPI_CAST_PTR (char, Target)) + 1;
+            break;
+
+        case ACPI_DMT_IVRS_UNTERMINATED_STRING:
+
+            ByteLength = ((ACPI_CAST_PTR (ACPI_IVRS_DEVICE_HID, Target) -1)->UidLength);
             break;
 
         case ACPI_DMT_GAS:
@@ -1179,7 +1256,12 @@ AcpiDmDumpTable (
             AcpiOsPrintf ("%1.1X\n", (*Target >> 2) & 0x03);
             break;
 
-        case ACPI_DMT_FLAGS4:
+        case ACPI_DMT_FLAGS8_2:
+
+            AcpiOsPrintf ("%2.2X\n", (*Target >> 2) & 0xFF);
+            break;
+
+	case ACPI_DMT_FLAGS4:
 
             AcpiOsPrintf ("%1.1X\n", (*Target >> 4) & 0x03);
             break;
@@ -1243,6 +1325,7 @@ AcpiDmDumpTable (
         case ACPI_DMT_BUF10:
         case ACPI_DMT_BUF12:
         case ACPI_DMT_BUF16:
+        case ACPI_DMT_BUF18:
         case ACPI_DMT_BUF128:
             /*
              * Buffer: Size depends on the opcode and was set above.
@@ -1273,7 +1356,7 @@ AcpiDmDumpTable (
 
             /* Convert 16-byte UUID buffer to 36-byte formatted UUID string */
 
-            (void) AuConvertUuidToString ((char *) Target, AslGbl_MsgBuffer);
+            (void) AcpiUtConvertUuidToString ((char *) Target, AslGbl_MsgBuffer);
 
             AcpiOsPrintf ("%s\n", AslGbl_MsgBuffer);
             break;
@@ -1281,6 +1364,11 @@ AcpiDmDumpTable (
         case ACPI_DMT_STRING:
 
             AcpiOsPrintf ("\"%s\"\n", ACPI_CAST_PTR (char, Target));
+            break;
+
+        case ACPI_DMT_IVRS_UNTERMINATED_STRING:
+
+            AcpiOsPrintf ("\"%.*s\"\n", ByteLength, ACPI_CAST_PTR (char, Target));
             break;
 
         /* Fixed length ASCII name fields */
@@ -1373,6 +1461,90 @@ AcpiDmDumpTable (
 
             AcpiOsPrintf ("\n");
             LastOutputBlankLine = TRUE;
+            break;
+
+        case ACPI_DMT_AEST:
+
+            /* AEST subtable types */
+
+            Temp8 = *Target;
+            if (Temp8 > ACPI_AEST_NODE_TYPE_RESERVED)
+            {
+                Temp8 = ACPI_AEST_NODE_TYPE_RESERVED;
+            }
+
+            AcpiOsPrintf (UINT8_FORMAT, *Target,
+                AcpiDmAestSubnames[Temp8]);
+            break;
+
+        case ACPI_DMT_AEST_CACHE:
+
+            /* AEST cache resource subtable */
+
+            Temp32 = *Target;
+            if (Temp32 > ACPI_AEST_CACHE_RESERVED)
+            {
+                Temp32 = ACPI_AEST_CACHE_RESERVED;
+            }
+
+            AcpiOsPrintf (UINT32_FORMAT, *Target,
+                AcpiDmAestCacheNames[Temp32]);
+            break;
+
+        case ACPI_DMT_AEST_GIC:
+
+            /* AEST GIC error subtable */
+
+            Temp32 = *Target;
+            if (Temp32 > ACPI_AEST_GIC_RESERVED)
+            {
+                Temp32 = ACPI_AEST_GIC_RESERVED;
+            }
+
+            AcpiOsPrintf (UINT32_FORMAT, *Target,
+                AcpiDmAestGicNames[Temp32]);
+            break;
+
+        case ACPI_DMT_AEST_RES:
+
+            /* AEST resource type subtable */
+
+            Temp8 = *Target;
+            if (Temp8 > ACPI_AEST_RESOURCE_RESERVED)
+            {
+                Temp8 = ACPI_AEST_RESOURCE_RESERVED;
+            }
+
+            AcpiOsPrintf (UINT8_FORMAT, *Target,
+                AcpiDmAestResourceNames[Temp8]);
+            break;
+
+        case ACPI_DMT_AEST_XFACE:
+
+            /* AEST interface structure types */
+
+            Temp8 = *Target;
+            if (Temp8 > ACPI_AEST_XFACE_RESERVED)
+            {
+                Temp8 = ACPI_AEST_XFACE_RESERVED;
+            }
+
+            AcpiOsPrintf (UINT8_FORMAT, *Target,
+                AcpiDmAestXfaceNames[Temp8]);
+            break;
+
+        case ACPI_DMT_AEST_XRUPT:
+
+            /* AEST interrupt structure types */
+
+            Temp8 = *Target;
+            if (Temp8 > ACPI_AEST_XRUPT_RESERVED)
+            {
+                Temp8 = ACPI_AEST_XRUPT_RESERVED;
+            }
+
+            AcpiOsPrintf (UINT8_FORMAT, *Target,
+                AcpiDmAestXruptNames[Temp8]);
             break;
 
         case ACPI_DMT_ASF:
@@ -1578,11 +1750,14 @@ AcpiDmDumpTable (
             /* MADT subtable types */
 
             Temp8 = *Target;
-            if (Temp8 > ACPI_MADT_TYPE_RESERVED)
+            if ((Temp8 >= ACPI_MADT_TYPE_RESERVED) && (Temp8 < ACPI_MADT_TYPE_OEM_RESERVED))
             {
                 Temp8 = ACPI_MADT_TYPE_RESERVED;
             }
-
+            else if (Temp8 >= ACPI_MADT_TYPE_OEM_RESERVED)
+            {
+                Temp8 = ACPI_MADT_TYPE_RESERVED + 1;
+            }
             AcpiOsPrintf (UINT8_FORMAT, *Target,
                 AcpiDmMadtSubnames[Temp8]);
             break;
@@ -1599,6 +1774,123 @@ AcpiDmDumpTable (
 
             AcpiOsPrintf (UINT16_FORMAT, ACPI_GET16 (Target),
                 AcpiDmNfitSubnames[Temp16]);
+            break;
+
+        case ACPI_DMT_NHLT1:
+
+            /* NHLT link types */
+
+            Temp8 = *Target;
+            if (Temp8 > ACPI_NHLT_TYPE_RESERVED)
+            {
+                Temp8 = ACPI_NHLT_TYPE_RESERVED;
+            }
+
+            AcpiOsPrintf (UINT8_FORMAT, *Target,
+                AcpiDmNhltLinkTypeNames[Temp8]);
+            break;
+
+        case ACPI_DMT_NHLT1a:
+
+            /* NHLT direction */
+
+            Temp8 = *Target;
+            if (Temp8 > ACPI_NHLT_DIR_RESERVED)
+            {
+                Temp8 = ACPI_NHLT_DIR_RESERVED;
+            }
+
+            AcpiOsPrintf (UINT8_FORMAT, *Target,
+                AcpiDmNhltDirectionNames[Temp8]);
+            break;
+
+        case ACPI_DMT_NHLT1b:
+
+            /* NHLT microphone type */
+
+            Temp8 = *Target;
+            if (Temp8 > ACPI_NHLT_MIC_RESERVED)
+            {
+                Temp8 = ACPI_NHLT_MIC_RESERVED;
+            }
+
+            AcpiOsPrintf (UINT8_FORMAT, *Target,
+                AcpiDmNhltMicTypeNames[Temp8]);
+            break;
+
+        case ACPI_DMT_NHLT1c:
+
+            /* NHLT microphone position */
+
+            Temp8 = *Target;
+            if (Temp8 > ACPI_NHLT_MIC_POSITION_RESERVED)
+            {
+                Temp8 = ACPI_NHLT_MIC_POSITION_RESERVED;
+            }
+
+            AcpiOsPrintf (UINT8_FORMAT, *Target,
+                AcpiDmNhltMicPositionNames[Temp8]);
+            break;
+
+        case ACPI_DMT_NHLT1d:
+
+            /* NHLT microphone array type */
+
+            Temp8 = *Target & ACPI_NHLT_ARRAY_TYPE_MASK;
+            if (Temp8 < ACPI_NHLT_ARRAY_TYPE_RESERVED)
+            {
+                Temp8 = ACPI_NHLT_ARRAY_TYPE_RESERVED;
+            }
+
+            AcpiOsPrintf (UINT8_FORMAT_NO_NEWLINE, *Target,
+                AcpiDmNhltMicArrayTypeNames[Temp8 - ACPI_NHLT_ARRAY_TYPE_RESERVED]);
+
+            Temp8 = *Target;
+            if (Temp8 & ACPI_NHLT_MIC_SNR_SENSITIVITY_EXT)
+            {
+                AcpiOsPrintf (" [%s]", "SNR and Sensitivity");
+            }
+
+            AcpiOsPrintf ("\n");
+            break;
+
+        case ACPI_DMT_NHLT1e:
+
+            /* NHLT Endpoint Device ID */
+
+            Temp16 = ACPI_GET16 (Target);
+            if (Temp16 == 0xAE20)
+            {
+                Name = "PDM DMIC";
+            }
+            else if (Temp16 == 0xAE30)
+            {
+                Name = "BT Sideband";
+            }
+            else if (Temp16 == 0xAE34)
+            {
+                Name = "I2S/TDM Codecs";
+            }
+            else
+            {
+                Name = "Unknown Device ID";
+            }
+
+            AcpiOsPrintf (UINT16_FORMAT, Temp16, Name);
+            break;
+
+        case ACPI_DMT_NHLT1f:
+
+            /* NHLT ConfigType field */
+
+            Temp8 = *Target;
+            if (Temp8 > ACPI_NHLT_CONFIG_TYPE_RESERVED)
+            {
+                Temp8 = ACPI_NHLT_CONFIG_TYPE_RESERVED;
+            }
+
+            AcpiOsPrintf (UINT8_FORMAT, *Target,
+                AcpiDmNhltConfigTypeNames[Temp8]);
             break;
 
         case ACPI_DMT_PCCT:
@@ -1661,6 +1953,7 @@ AcpiDmDumpTable (
             break;
 
         case ACPI_DMT_UNICODE:
+        case ACPI_DMT_WPBT_UNICODE:
 
             if (ByteLength == 0)
             {
@@ -1681,7 +1974,21 @@ AcpiDmDumpTable (
                 break;
             }
 
-            AcpiDmDumpBuffer (Target, 0, ByteLength, 0, NULL);
+            AcpiDmDumpBuffer (Target, 0, ByteLength, CurrentOffset, NULL);
+            break;
+
+        case ACPI_DMT_RGRT:
+
+            /* RGRT subtable types */
+
+            Temp8 = *Target;
+            if (Temp8 >= ACPI_RGRT_TYPE_RESERVED)
+            {
+                Temp8 = ACPI_RGRT_TYPE_RESERVED0;
+            }
+
+            AcpiOsPrintf (UINT8_FORMAT, *Target,
+                AcpiDmRgrtSubnames[Temp8]);
             break;
 
         case ACPI_DMT_SDEV:
@@ -1750,21 +2057,62 @@ AcpiDmDumpTable (
             {
             case ACPI_IVRS_TYPE_HARDWARE1:
             case ACPI_IVRS_TYPE_HARDWARE2:
-            case ACPI_IVRS_TYPE_HARDWARE3:
 
                 Name = AcpiDmIvrsSubnames[0];
+                break;
+
+            case ACPI_IVRS_TYPE_HARDWARE3:
+
+                Name = AcpiDmIvrsSubnames[1];
                 break;
 
             case ACPI_IVRS_TYPE_MEMORY1:
             case ACPI_IVRS_TYPE_MEMORY2:
             case ACPI_IVRS_TYPE_MEMORY3:
 
-                Name = AcpiDmIvrsSubnames[1];
+                Name = AcpiDmIvrsSubnames[2];
                 break;
 
             default:
 
-                Name = AcpiDmIvrsSubnames[2];
+                Name = AcpiDmIvrsSubnames[3];
+                break;
+            }
+
+            AcpiOsPrintf (UINT8_FORMAT, *Target, Name);
+            break;
+
+        case ACPI_DMT_IVRS_DE:
+
+            /* IVRS device entry types */
+
+            Temp8 = *Target;
+            switch (Temp8)
+            {
+            case ACPI_IVRS_TYPE_ALL:
+            case ACPI_IVRS_TYPE_SELECT:
+            case ACPI_IVRS_TYPE_START:
+            case ACPI_IVRS_TYPE_END:
+
+                Name = AcpiDmIvrsDevEntryNames[Temp8];
+                break;
+
+            case ACPI_IVRS_TYPE_ALIAS_SELECT:
+            case ACPI_IVRS_TYPE_ALIAS_START:
+            case ACPI_IVRS_TYPE_EXT_SELECT:
+            case ACPI_IVRS_TYPE_EXT_START:
+            case ACPI_IVRS_TYPE_SPECIAL:
+
+                Name = AcpiDmIvrsDevEntryNames[Temp8 - 61];
+                break;
+
+            case ACPI_IVRS_TYPE_HID:
+
+                Name = AcpiDmIvrsDevEntryNames[Temp8 - 228];
+                break;
+
+            default:
+                Name = AcpiDmIvrsDevEntryNames[0];  /* Unknown/Reserved */
                 break;
             }
 

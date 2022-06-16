@@ -4,117 +4,9 @@
  *
  *****************************************************************************/
 
-/******************************************************************************
- *
- * 1. Copyright Notice
- *
- * Some or all of this work - Copyright (c) 1999 - 2021, Intel Corp.
+/*
+ * Copyright (C) 2000 - 2022, Intel Corp.
  * All rights reserved.
- *
- * 2. License
- *
- * 2.1. This is your license from Intel Corp. under its intellectual property
- * rights. You may have additional license terms from the party that provided
- * you this software, covering your right to use that party's intellectual
- * property rights.
- *
- * 2.2. Intel grants, free of charge, to any person ("Licensee") obtaining a
- * copy of the source code appearing in this file ("Covered Code") an
- * irrevocable, perpetual, worldwide license under Intel's copyrights in the
- * base code distributed originally by Intel ("Original Intel Code") to copy,
- * make derivatives, distribute, use and display any portion of the Covered
- * Code in any form, with the right to sublicense such rights; and
- *
- * 2.3. Intel grants Licensee a non-exclusive and non-transferable patent
- * license (with the right to sublicense), under only those claims of Intel
- * patents that are infringed by the Original Intel Code, to make, use, sell,
- * offer to sell, and import the Covered Code and derivative works thereof
- * solely to the minimum extent necessary to exercise the above copyright
- * license, and in no event shall the patent license extend to any additions
- * to or modifications of the Original Intel Code. No other license or right
- * is granted directly or by implication, estoppel or otherwise;
- *
- * The above copyright and patent license is granted only if the following
- * conditions are met:
- *
- * 3. Conditions
- *
- * 3.1. Redistribution of Source with Rights to Further Distribute Source.
- * Redistribution of source code of any substantial portion of the Covered
- * Code or modification with rights to further distribute source must include
- * the above Copyright Notice, the above License, this list of Conditions,
- * and the following Disclaimer and Export Compliance provision. In addition,
- * Licensee must cause all Covered Code to which Licensee contributes to
- * contain a file documenting the changes Licensee made to create that Covered
- * Code and the date of any change. Licensee must include in that file the
- * documentation of any changes made by any predecessor Licensee. Licensee
- * must include a prominent statement that the modification is derived,
- * directly or indirectly, from Original Intel Code.
- *
- * 3.2. Redistribution of Source with no Rights to Further Distribute Source.
- * Redistribution of source code of any substantial portion of the Covered
- * Code or modification without rights to further distribute source must
- * include the following Disclaimer and Export Compliance provision in the
- * documentation and/or other materials provided with distribution. In
- * addition, Licensee may not authorize further sublicense of source of any
- * portion of the Covered Code, and must include terms to the effect that the
- * license from Licensee to its licensee is limited to the intellectual
- * property embodied in the software Licensee provides to its licensee, and
- * not to intellectual property embodied in modifications its licensee may
- * make.
- *
- * 3.3. Redistribution of Executable. Redistribution in executable form of any
- * substantial portion of the Covered Code or modification must reproduce the
- * above Copyright Notice, and the following Disclaimer and Export Compliance
- * provision in the documentation and/or other materials provided with the
- * distribution.
- *
- * 3.4. Intel retains all right, title, and interest in and to the Original
- * Intel Code.
- *
- * 3.5. Neither the name Intel nor any other trademark owned or controlled by
- * Intel shall be used in advertising or otherwise to promote the sale, use or
- * other dealings in products derived from or relating to the Covered Code
- * without prior written authorization from Intel.
- *
- * 4. Disclaimer and Export Compliance
- *
- * 4.1. INTEL MAKES NO WARRANTY OF ANY KIND REGARDING ANY SOFTWARE PROVIDED
- * HERE. ANY SOFTWARE ORIGINATING FROM INTEL OR DERIVED FROM INTEL SOFTWARE
- * IS PROVIDED "AS IS," AND INTEL WILL NOT PROVIDE ANY SUPPORT, ASSISTANCE,
- * INSTALLATION, TRAINING OR OTHER SERVICES. INTEL WILL NOT PROVIDE ANY
- * UPDATES, ENHANCEMENTS OR EXTENSIONS. INTEL SPECIFICALLY DISCLAIMS ANY
- * IMPLIED WARRANTIES OF MERCHANTABILITY, NONINFRINGEMENT AND FITNESS FOR A
- * PARTICULAR PURPOSE.
- *
- * 4.2. IN NO EVENT SHALL INTEL HAVE ANY LIABILITY TO LICENSEE, ITS LICENSEES
- * OR ANY OTHER THIRD PARTY, FOR ANY LOST PROFITS, LOST DATA, LOSS OF USE OR
- * COSTS OF PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES, OR FOR ANY INDIRECT,
- * SPECIAL OR CONSEQUENTIAL DAMAGES ARISING OUT OF THIS AGREEMENT, UNDER ANY
- * CAUSE OF ACTION OR THEORY OF LIABILITY, AND IRRESPECTIVE OF WHETHER INTEL
- * HAS ADVANCE NOTICE OF THE POSSIBILITY OF SUCH DAMAGES. THESE LIMITATIONS
- * SHALL APPLY NOTWITHSTANDING THE FAILURE OF THE ESSENTIAL PURPOSE OF ANY
- * LIMITED REMEDY.
- *
- * 4.3. Licensee shall not export, either directly or indirectly, any of this
- * software or system incorporating such software without first obtaining any
- * required license or other approval from the U. S. Department of Commerce or
- * any other agency or department of the United States Government. In the
- * event Licensee exports any such software from the United States or
- * re-exports any such software from a foreign destination, Licensee shall
- * ensure that the distribution and export/re-export of the software is in
- * compliance with all laws, regulations, orders, or other restrictions of the
- * U.S. Export Administration Regulations. Licensee agrees that neither it nor
- * any of its subsidiaries will export/re-export any technical data, process,
- * software, or service, directly or indirectly, to any country for which the
- * United States government or any agency thereof requires an export license,
- * other governmental approval, or letter of assurance, without first obtaining
- * such license, approval or letter.
- *
- *****************************************************************************
- *
- * Alternatively, you may choose to be licensed under the terms of the
- * following license:
  *
  * Redistribution and use in source and binary forms, with or without
  * modification, are permitted provided that the following conditions
@@ -131,23 +23,23 @@
  *    of any contributors may be used to endorse or promote products derived
  *    from this software without specific prior written permission.
  *
+ * Alternatively, this software may be distributed under the terms of the
+ * GNU General Public License ("GPL") version 2 as published by the Free
+ * Software Foundation.
+ *
+ * NO WARRANTY
  * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
  * "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
  * LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
  * A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
- * OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
- * SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
- * LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
- * DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
- * THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
- * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
- * OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
- *
- * Alternatively, you may choose to be licensed under the terms of the
- * GNU General Public License ("GPL") version 2 as published by the Free
- * Software Foundation.
- *
- *****************************************************************************/
+ * HOLDERS OR CONTRIBUTORS BE LIABLE FOR SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+ * DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS
+ * OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+ * HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT,
+ * STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING
+ * IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
+ * POSSIBILITY OF SUCH DAMAGES.
+ */
 
 #include "acpi.h"
 #include "accommon.h"
@@ -158,6 +50,285 @@
 
 #define _COMPONENT          ACPI_CA_DISASSEMBLER
         ACPI_MODULE_NAME    ("dmtbdump1")
+
+
+/*******************************************************************************
+ *
+ * FUNCTION:    AcpiDmDumpAest
+ *
+ * PARAMETERS:  Table               - A AEST table
+ *
+ * RETURN:      None
+ *
+ * DESCRIPTION: Format the contents of a AEST table
+ *
+ * NOTE: Assumes the following table structure:
+ *      For all AEST Error Nodes:
+ *          1) An AEST Error Node, followed immediately by:
+ *          2) Any node-specific data
+ *          3) An Interface Structure (one)
+ *          4) A list (array) of Interrupt Structures
+ *
+ * AEST - ARM Error Source table. Conforms to:
+ * ACPI for the Armv8 RAS Extensions 1.1 Platform Design Document Sep 2020
+ *
+ ******************************************************************************/
+
+void
+AcpiDmDumpAest (
+    ACPI_TABLE_HEADER       *Table)
+{
+    ACPI_STATUS             Status;
+    UINT32                  Offset = sizeof (ACPI_TABLE_HEADER);
+    ACPI_AEST_HEADER        *Subtable;
+    ACPI_AEST_HEADER        *NodeHeader;
+    ACPI_AEST_PROCESSOR     *ProcessorSubtable;
+    ACPI_DMTABLE_INFO       *InfoTable;
+    ACPI_SIZE               Length;
+    UINT8                   Type;
+
+
+    /* Very small, generic main table. AEST consists of mostly subtables */
+
+    while (Offset < Table->Length)
+    {
+        NodeHeader = ACPI_ADD_PTR (ACPI_AEST_HEADER, Table, Offset);
+
+        /* Dump the common error node (subtable) header */
+
+        Status = AcpiDmDumpTable (Table->Length, Offset, NodeHeader,
+            NodeHeader->Length, AcpiDmTableInfoAestHdr);
+        if (ACPI_FAILURE (Status))
+        {
+            return;
+        }
+
+        Type = NodeHeader->Type;
+
+        /* Setup the node-specific subtable based on the header Type field */
+
+        switch (Type)
+        {
+        case ACPI_AEST_PROCESSOR_ERROR_NODE:
+            InfoTable = AcpiDmTableInfoAestProcError;
+            Length = sizeof (ACPI_AEST_PROCESSOR);
+            break;
+
+        case ACPI_AEST_MEMORY_ERROR_NODE:
+            InfoTable = AcpiDmTableInfoAestMemError;
+            Length = sizeof (ACPI_AEST_MEMORY);
+            break;
+
+        case ACPI_AEST_SMMU_ERROR_NODE:
+            InfoTable = AcpiDmTableInfoAestSmmuError;
+            Length = sizeof (ACPI_AEST_SMMU);
+            break;
+
+        case ACPI_AEST_VENDOR_ERROR_NODE:
+            InfoTable = AcpiDmTableInfoAestVendorError;
+            Length = sizeof (ACPI_AEST_VENDOR);
+            break;
+
+        case ACPI_AEST_GIC_ERROR_NODE:
+            InfoTable = AcpiDmTableInfoAestGicError;
+            Length = sizeof (ACPI_AEST_GIC);
+            break;
+
+        /* Error case below */
+        default:
+
+            AcpiOsPrintf ("\n**** Unknown AEST Error Subtable type 0x%X\n",
+                Type);
+            return;
+        }
+
+        /* Point past the common header (to the node-specific data) */
+
+        Offset += sizeof (ACPI_AEST_HEADER);
+        Subtable = ACPI_ADD_PTR (ACPI_AEST_HEADER, Table, Offset);
+        AcpiOsPrintf ("\n");
+
+        /* Dump the node-specific subtable */
+
+        Status = AcpiDmDumpTable (Table->Length, Offset, Subtable, Length,
+            InfoTable);
+        if (ACPI_FAILURE (Status))
+        {
+            return;
+        }
+        AcpiOsPrintf ("\n");
+
+        if (Type == ACPI_AEST_PROCESSOR_ERROR_NODE)
+        {
+            /*
+             * Special handling for PROCESSOR_ERROR_NODE subtables
+             * (to handle the Resource Substructure via the ResourceType
+             * field).
+             */
+
+            /* Point past the node-specific data */
+
+            Offset += Length;
+            ProcessorSubtable = ACPI_CAST_PTR (ACPI_AEST_PROCESSOR, Subtable);
+
+            switch (ProcessorSubtable->ResourceType)
+            {
+            /* Setup the Resource Substructure subtable */
+
+            case ACPI_AEST_CACHE_RESOURCE:
+                InfoTable = AcpiDmTableInfoAestCacheRsrc;
+                Length = sizeof (ACPI_AEST_PROCESSOR_CACHE);
+                break;
+
+            case ACPI_AEST_TLB_RESOURCE:
+                InfoTable = AcpiDmTableInfoAestTlbRsrc;
+                Length = sizeof (ACPI_AEST_PROCESSOR_TLB);
+                break;
+
+            case ACPI_AEST_GENERIC_RESOURCE:
+                InfoTable = AcpiDmTableInfoAestGenRsrc;
+                Length = sizeof (ACPI_AEST_PROCESSOR_GENERIC);
+                break;
+
+            /* Error case below */
+            default:
+                AcpiOsPrintf ("\n**** Unknown AEST Processor Resource type 0x%X\n",
+                    ProcessorSubtable->ResourceType);
+                return;
+            }
+
+            ProcessorSubtable = ACPI_ADD_PTR (ACPI_AEST_PROCESSOR, Table,
+                Offset);
+
+            /* Dump the resource substructure subtable */
+
+            Status = AcpiDmDumpTable (Table->Length, Offset, ProcessorSubtable,
+                Length, InfoTable);
+            if (ACPI_FAILURE (Status))
+            {
+                return;
+            }
+
+            AcpiOsPrintf ("\n");
+        }
+
+        /* Point past the resource substructure or the node-specific data */
+
+        Offset += Length;
+
+        /* Dump the interface structure, required to be present */
+
+        Subtable = ACPI_ADD_PTR (ACPI_AEST_HEADER, Table, Offset);
+        if (Subtable->Type >= ACPI_AEST_XFACE_RESERVED)
+        {
+            AcpiOsPrintf ("\n**** Unknown AEST Node Interface type 0x%X\n",
+                Subtable->Type);
+            return;
+        }
+
+        Status = AcpiDmDumpTable (Table->Length, Offset, Subtable,
+            sizeof (ACPI_AEST_NODE_INTERFACE), AcpiDmTableInfoAestXface);
+        if (ACPI_FAILURE (Status))
+        {
+            return;
+        }
+
+        /* Point past the interface structure */
+
+        AcpiOsPrintf ("\n");
+        Offset += sizeof (ACPI_AEST_NODE_INTERFACE);
+
+        /* Dump the entire interrupt structure array, if present */
+
+        if (NodeHeader->NodeInterruptOffset)
+        {
+            Length = NodeHeader->NodeInterruptCount;
+            Subtable = ACPI_ADD_PTR (ACPI_AEST_HEADER, Table, Offset);
+
+            while (Length)
+            {
+                /* Dump the interrupt structure */
+
+                Status = AcpiDmDumpTable (Table->Length, Offset, Subtable,
+                    sizeof (ACPI_AEST_NODE_INTERRUPT),
+                    AcpiDmTableInfoAestXrupt);
+                if (ACPI_FAILURE (Status))
+                {
+                    return;
+                }
+
+                /* Point to the next interrupt structure */
+
+                Offset += sizeof (ACPI_AEST_NODE_INTERRUPT);
+                Subtable = ACPI_ADD_PTR (ACPI_AEST_HEADER, Table, Offset);
+                Length--;
+                AcpiOsPrintf ("\n");
+            }
+        }
+    }
+}
+
+/*******************************************************************************
+ *
+ * FUNCTION:    AcpiDmDumpApmt
+ *
+ * PARAMETERS:  Table               - A APMT table
+ *
+ * RETURN:      None
+ *
+ * DESCRIPTION: Format the contents of a APMT. This table type consists
+ *              of an open-ended number of subtables.
+ *
+ *
+ * APMT - ARM Performance Monitoring Unit table. Conforms to:
+ * ARM Performance Monitoring Unit Architecture 1.0 Platform Design Document
+ * ARM DEN0117 v1.0 November 25, 2021
+ *
+ ******************************************************************************/
+
+void
+AcpiDmDumpApmt (
+    ACPI_TABLE_HEADER       *Table)
+{
+    ACPI_STATUS              Status;
+    ACPI_APMT_NODE           *Subtable;
+    UINT32                   Length = Table->Length;
+    UINT32                   Offset = sizeof (ACPI_TABLE_APMT);
+    UINT32                   NodeNum = 0;
+
+    /* There is no main table (other than the standard ACPI header) */
+
+    /* Subtables */
+
+    Subtable = ACPI_ADD_PTR (ACPI_APMT_NODE, Table, Offset);
+    while (Offset < Table->Length)
+    {
+        AcpiOsPrintf ("\n");
+
+        if (Subtable->Type >= ACPI_APMT_NODE_TYPE_COUNT)
+        {
+            AcpiOsPrintf ("\n**** Unknown APMT subtable type 0x%X\n",
+                Subtable->Type);
+            return;
+        }
+
+        AcpiOsPrintf ("/* APMT Node-%u */\n", NodeNum++);
+
+        Status = AcpiDmDumpTable (Length, Offset, Subtable,
+            Subtable->Length, AcpiDmTableInfoApmtNode);
+        if (ACPI_FAILURE (Status))
+        {
+            return;
+        }
+
+        /* Point to next subtable */
+
+        Offset += Subtable->Length;
+        Subtable = ACPI_ADD_PTR (ACPI_APMT_NODE, Subtable,
+            Subtable->Length);
+        AcpiOsPrintf ("\n");
+    }
+}
 
 
 /*******************************************************************************
@@ -350,7 +521,6 @@ AcpiDmDumpCedt (
     ACPI_CEDT_HEADER        *Subtable;
     UINT32                  Length = Table->Length;
     UINT32                  Offset = sizeof (ACPI_TABLE_CEDT);
-    ACPI_DMTABLE_INFO       *InfoTable;
 
 
     /* There is no main table (other than the standard ACPI header) */
@@ -371,35 +541,52 @@ AcpiDmDumpCedt (
         switch (Subtable->Type)
         {
         case ACPI_CEDT_TYPE_CHBS:
-
-            InfoTable = AcpiDmTableInfoCedt0;
+            Status = AcpiDmDumpTable (Length, Offset, Subtable,
+                Subtable->Length, AcpiDmTableInfoCedt0);
+            if (ACPI_FAILURE (Status)) {
+                return;
+            }
             break;
 
-        default:
+        case ACPI_CEDT_TYPE_CFMWS: {
+            ACPI_CEDT_CFMWS *ptr = (ACPI_CEDT_CFMWS *) Subtable;
+            unsigned int i, max = 0x01 << (ptr->InterleaveWays);
 
+            /* print out table with first "Interleave target" */
+
+            Status = AcpiDmDumpTable (Length, Offset, Subtable,
+                Subtable->Length, AcpiDmTableInfoCedt1);
+            if (ACPI_FAILURE (Status)) {
+                return;
+            }
+
+            /* Now, print out any interleave targets beyond the first. */
+
+            for (i = 1; i < max; i++) {
+                unsigned int loc_offset = Offset + (i * 4) + ACPI_OFFSET(ACPI_CEDT_CFMWS, InterleaveTargets);
+                unsigned int *trg = &(ptr->InterleaveTargets[i]);
+                Status = AcpiDmDumpTable (Length, loc_offset, trg,
+                        Subtable->Length, AcpiDmTableInfoCedt1_te);
+                if (ACPI_FAILURE (Status)) {
+                    return;
+                }
+            }
+            break;
+        }
+
+        default:
             AcpiOsPrintf ("\n**** Unknown CEDT subtable type 0x%X\n\n",
                 Subtable->Type);
 
             /* Attempt to continue */
-
             if (!Subtable->Length)
             {
                 AcpiOsPrintf ("Invalid zero length subtable\n");
                 return;
             }
-            goto NextSubtable;
         }
 
-        Status = AcpiDmDumpTable (Length, Offset, Subtable,
-            Subtable->Length, InfoTable);
-        if (ACPI_FAILURE (Status))
-        {
-            return;
-        }
-
-NextSubtable:
         /* Point to next subtable */
-
         Offset += Subtable->Length;
         Subtable = ACPI_ADD_PTR (ACPI_CEDT_HEADER, Subtable,
             Subtable->Length);
@@ -769,6 +956,12 @@ AcpiDmDumpDmar (
 
             InfoTable = AcpiDmTableInfoDmar4;
             ScopeOffset = sizeof (ACPI_DMAR_ANDD);
+            break;
+
+        case ACPI_DMAR_TYPE_SATC:
+
+            InfoTable = AcpiDmTableInfoDmar5;
+            ScopeOffset = sizeof (ACPI_DMAR_SATC);
             break;
 
         default:
